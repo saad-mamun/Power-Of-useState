@@ -3,6 +3,7 @@ import RemoveList from "./components/RemoveList";
 import UpdateText from "./components/UpdateText";
 import BColor from "./components/BColor";
 import ToggleDark from "./components/ToggleDark";
+import PasswordToggle from "./components/PasswordToggle";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <UpdateText/>
       <BColor/> */}
       <ToggleDark/>
+      <PasswordToggle/>
     </>
   );
 };
