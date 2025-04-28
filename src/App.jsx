@@ -4,6 +4,7 @@ import UpdateText from "./components/UpdateText";
 import BColor from "./components/BColor";
 import ToggleDark from "./components/ToggleDark";
 import PasswordToggle from "./components/PasswordToggle";
+import CenterModal from "./components/CenterModal";
 
 
 const App = () => {
@@ -12,8 +13,9 @@ const App = () => {
       {/* <RemoveList/>
       <UpdateText/>
       <BColor/> */}
-      <ToggleDark/>
-      <PasswordToggle/>
+      {/* <ToggleDark/>
+      <PasswordToggle/> */}
+      <CenterModal/>
     </>
   );
 };
