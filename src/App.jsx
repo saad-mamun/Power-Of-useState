@@ -2,14 +2,16 @@ import React from "react";
 import RemoveList from "./components/RemoveList";
 import UpdateText from "./components/UpdateText";
 import BColor from "./components/BColor";
+import ToggleDark from "./components/ToggleDark";
 
 
 const App = () => {
   return (
     <>
-      <RemoveList/>
+      {/* <RemoveList/>
       <UpdateText/>
-      <BColor/>
+      <BColor/> */}
+      <ToggleDark/>
     </>
   );
 };
