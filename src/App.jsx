@@ -1,12 +1,11 @@
 import React from "react";
-import Count from "./components/Count";
-import Toggle from "./components/Toggle";
+import RemoveList from "./components/RemoveList";
+
 
 const App = () => {
   return (
     <>
-      <Count />
-      <Toggle />
+      <RemoveList/>
     </>
   );
 };
